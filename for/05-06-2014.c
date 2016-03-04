@@ -1,0 +1,18 @@
+//FAÇA UMA FUNÇÃO QUE LEIA OS VALORES DE UM VETOR
+//FAÇA UMA FUNÇÃO QUE IMPRIMA OS VALORES DE UM VETOR
+
+
+void main (){
+   int i = 0;
+   int tamanho = 5;
+   int vetor [tamanho];
+
+   lervaloresvetor(vetor, tamanho);
+
+   for (i = 0; i < tamanho; i++){
+    printf ("%d\n",vetor[i]);
+   }
+   int tamanho2 = 3;
+   int vetor2 [tamanho2];
+
+}
